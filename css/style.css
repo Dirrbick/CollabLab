@@ -5,12 +5,28 @@ html {
 
 article {
     background-image: url("../img/list-bg.png");
+    height: 250px;
     margin: 30px 0;
 
 }
 
+.container {
+    display: block;
+}
+
+.checkmark {
+    top: 0;
+    left: 0px;
+    background-color: #eee;
+    clear: left;
+    float: left;
+    margin-left: 1em;
+}
+
 body>article>div {
     float: left;
+    width: 50%;
+
 }
 
 header>div {
@@ -82,4 +98,17 @@ body>main>p {
     margin-top: 30px;
     line-height: 1.2em;
     font-size: 14.5pt;
+}
+
+section.bio>div>img {
+    float: left;
+}
+
+section.bio>div>button {
+    float: right;
+    color: white;
+    background-color: rgba(148, 61, 39, 0.836);
+    border: none;
+    height: 40px;
+    width: 150px;
 }
